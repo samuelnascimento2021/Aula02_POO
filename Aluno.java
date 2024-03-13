@@ -18,7 +18,7 @@ public class Aluno {
         this.nota_geo = nota_geo;
         this.nota_quim = nota_quim;
     }
-    public Double calcularMedia() {
+    public double calcularMedia() {
         return ((nota_mat + nota_por + nota_fis + nota_geo + nota_quim) / 5);
     }
     public String situacaoAluno() {
